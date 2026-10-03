@@ -8,7 +8,6 @@ A SQL Server data warehouse that takes sales data from two source systems (CRM a
 
 ## Architecture
 
-![Data Architecture](docs/data_architecture.png)
 
 | Layer | Purpose | What happens here |
 |-------|---------|-------------------|
@@ -24,8 +23,6 @@ A SQL Server data warehouse that takes sales data from two source systems (CRM a
 Scope is the latest snapshot only, so no historization.
 
 ## Data Model (Gold Layer)
-
-![Data Model](docs/data_model.png)
 
 - `gold.fact_sales`: sales transactions (order number, dates, amount, quantity, price)
 - `gold.dim_customers`: customer attributes combined from CRM and ERP
@@ -102,7 +99,7 @@ Based on the SQL Data Warehouse Project course by Baraa Khatib Salkini ([Data Wi
 
 ## About Me
 
-Hi, I'm **Saidas Subhadarshi**, [one line about your background and the role you're aiming for].
+Hi, I'm **Saidas Subhadarshi**.
 
 - LinkedIn: [saidas-subhadarshi](https://www.linkedin.com/in/saidas-subhadarshi-46553b308)
 - GitHub: [sai0410-frost](https://github.com/sai0410-frost)
